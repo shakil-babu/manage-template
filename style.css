@@ -1,0 +1,342 @@
+/*
+Author: Shakil Babu
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+/* for hero section */
+.hero-area{
+    background:url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: 'Be Vietnam', sans-serif;
+}
+/* for nav */
+.nav-area{
+    background: transparent;
+    padding: 25px 0;
+    font-family: 'Be Vietnam', sans-serif;
+}
+.nav-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container img{
+    height: 22px;
+}
+.nav-items{
+    display: flex;
+}
+.nav-items a{
+    color: #000;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 400;
+}
+.nav-items a:hover{
+    color: #f3603c;
+    border-bottom: 1px solid #f3603c;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 25px ;
+    font-size: 15px;
+    cursor: pointer;
+}
+.orange{
+    background: #f3603c;
+    color: #fff;
+    box-shadow: 1px 2px 3.5px -1px #f3603c;
+}
+
+
+/* hero info */
+.hero-info-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 55px;
+}
+.col-6{
+    width: 50%;
+}
+.info{
+    margin-top: 60px;
+}
+.col-6 h1{
+    font-size: 50px;
+    font-weight: 700;
+    color:  hsl(228, 39%, 23%);
+}
+.col-6 p{
+    font-size: 16px;
+    font-weight: 300;
+    color:  hsl(227, 12%, 61%);
+    margin-top:25px ;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+/* about */
+.about-area{
+    margin:60px 0;
+}
+.about-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 30px 0;
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 2.25rem #9da5ab;
+    margin-bottom: 15px;
+    padding: 20px 0;
+}
+.info-box h4{
+    margin-top: 10px;
+}
+
+/* testimonial */
+.testimonial-area{
+    margin: 30px 0;
+    background: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 ;
+}
+.testimonial-area h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.container-grid{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.feedback-area{
+    background-color: #fff;
+    box-shadow: 0 0 2.25rem #9da5ab;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+}
+.feedback-area:hover{
+    background:#f3603c;
+    color: #fff;
+}
+.feedback-area:hover p{
+    color: #fff;
+}
+.feedback-area img{
+    width: 70px;
+}
+.feedback-area h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.feedback-area p{
+    font-size: 14px;
+    text-align: justify;
+    color: hsl(228, 2%, 54%);
+}
+.info-box{
+    padding: 20px;
+}
+
+/* simple */
+.simple-area{
+    background:#f3603c;
+    padding: 40px ;
+    width: 80%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.simple-area h1{
+    color: #fff;
+}
+.white{
+    font-size: 16px;
+}
+/* grow-conversation-users  */
+.grow-conversation-users{
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 2.25rem #9da5ab;
+    padding: 40px;
+    margin-top: 30px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* footer */
+.footer-area{
+    background:hsl(228, 39%, 23%);
+    padding: 40px 0;
+}
+.col-7, .col-5{
+    margin-left: 15px;
+}
+.col-7 h1{
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.col-7 p{
+    font-size: 14px;
+    color: hsl(227, 12%, 61%);
+    letter-spacing: 2.4px;
+}
+.col-5 img{
+    width: 80%;
+}
+.footer-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons-logo-container h4{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.icons-container{
+    display: flex;
+}
+.icons-container a{
+    margin-right: 10px;
+}
+.nav-items-footer{
+    display: flex;
+    color: #fff;
+
+}
+.nav-items-footer a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+.send-message{
+    display: flex;
+}
+.send-message input{
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 5px;
+    outline: none;
+}
+/* ===================== Responsive design========================================== */
+
+/* for 992*/
+@media screen and (max-width: 992px){
+    /* nav */
+    .nav-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-container img{
+        width: 150px;
+        margin: auto;
+    }
+    .nav-items{
+        flex-direction: column;
+        margin: auto;
+    }
+    .nav-items a{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .about-container{
+        flex-direction: column;
+    }
+    .container-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .nav-items-footer{
+        flex-direction: column;
+    }
+}
+/* for 768 */
+@media screen and (max-width: 768px){
+    /* hero info */
+    .hero-info-flex{
+        flex-direction: column;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .col-6 h1{
+        font-size: 30px;
+    }
+    .col-6 p{
+        width: 100%;
+    }
+    .info{
+        margin: 0;
+    }
+    .col-6 img{
+       width: 100%;
+    }
+    .container-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* testimonial */
+    .testimonial-area h1{
+        font-size: 30px;
+    }
+    /* simple area */
+    .simple-area{
+        flex-direction: column;
+    }
+    /* footer */
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .nav-items-footer{
+        margin: 10px 0;
+    }
+    /* grow conversation users */
+    .row{
+        flex-direction: column;
+    }
+    .col-5 img{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+/* for 400 */
+@media screen and (max-width: 400px){
+    .col-6 img{
+        display: none;
+     }
+}

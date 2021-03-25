@@ -7,4 +7,4 @@ This is a simple HTML and CSS ```responsive``` template.
 2.CSS
 
 ## Project view
-(live)[www.shakil.com]
+(live)['https://shakil-babu.github.io/manage-template/']
